@@ -18,6 +18,13 @@
       "description": "Enable Berkeley DB wallet support",
       "dependencies": [
         "berkeleydb"
+
+         ],
+  "features": {
+    "berkeleydb": {
+      "description": "Enable Berkeley DB wallet support",
+      "dependencies": [
+        "berkeleydb"
       ]
     },
     "qt5": {
